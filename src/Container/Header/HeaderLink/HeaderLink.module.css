@@ -1,0 +1,27 @@
+.Link{
+    margin-right: 1%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Link:hover , .Link{
+    color:#d1d1d1;
+}
+.active:hover , .active{
+    color: #000000;
+    text-decoration-line: underline;
+}
+
+@media (min-width:0)and (max-width:449.9px){
+    .Link{
+        margin-right: 5%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:450px)and (max-width:749.9px){
+    .Link{
+        margin-right: 5%;
+        font-size: 20px;
+    }
+}

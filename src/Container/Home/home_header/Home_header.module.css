@@ -1,0 +1,103 @@
+ .home {
+     background-image : url(./home.png);
+     background-repeat: no-repeat;
+     background-size  : 100% 1140px;
+     height           : 1140px;
+     flex-wrap        : wrap;
+ }
+
+ .jbo_body {
+     width      : 100%;
+     display    : flex;
+     height     : 20%;
+     align-items: flex-end;
+ }
+
+ .jbo_text {
+     margin: 0 0 0 100px;
+     width : 10%;
+     height: 80%;
+ }
+
+ .home_title_body {
+     width          : 100% !important;
+     text-align     : center;
+     display        : flex;
+     align-items    : center;
+     justify-content: space-evenly;
+     height         : 20%;
+ }
+
+ .home_title {
+     font-size  : 100px;
+     font-family: initial;
+     line-height: 128px;
+     color      : #000;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .indigo_title {
+     font-size: 27px;
+ }
+
+ .violet_body {
+     width          : 100%;
+     display        : flex;
+     justify-content: center;
+     flex-wrap      : wrap;
+ }
+
+ .violet_box_white_boxs {
+     display        : flex;
+     border         : 1px solid;
+     justify-content: space-between;
+     width          : 60%;
+ }
+
+ .indigo_box_white_1_body {
+     width     : 48%;
+     text-align: center;
+ }
+
+ .violet_box_white_box1 {
+     background-color: #fff;
+     width           : 100%;
+ }
+
+ .violet_box_body {
+     background-color: rgba(181, 52, 113, 0.8);
+     color           : #fff;
+     display         : flex;
+     justify-content : center;
+     width           : 70%;
+ }
+
+ .indigo_box_body_header {
+     display        : flex;
+     width          : 70%;
+     justify-content: space-around;
+ }
+
+ @media(min-width:0px) and (max-width:949.9px) {
+     .jbo_text {
+         width : 20%;
+         height: 60%;
+         margin: 0 0 0 20px;
+     }
+
+     .jbo_body {
+         width      : 100%;
+         display    : flex;
+         height     : 15%;
+         align-items: center;
+     }
+
+     .home_title {
+         font-size: 40px;
+     }
+
+     .home_title_body {
+         height: 10%;
+
+     }
+ }

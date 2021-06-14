@@ -1,0 +1,36 @@
+.Input input, .Input textarea{
+    background-image: url(./exclaimation.png);
+    background-size: 25px 25px ;
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+    border: 3px solid red !important;
+    height: 30px;
+}
+
+.Input textarea{
+    height: 30px;
+}
+.errorText{
+    color: red;
+    font-size: 12px;
+    border: 2px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 21px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -4.5rem;
+    position: absolute;
+}
+
+@media (min-width:0) and (max-width:1049.9px){
+    .Input input, .Input textarea{
+        width: 100%;
+        border: 4px solid rgb(178, 34, 34);
+        outline-color:red !important;
+    }
+     .Error{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,13 @@
+.Indicator{
+    display: flex;
+    justify-content: center;
+}
+.Indicator_body{
+    width: 90% ;
+    overflow: hidden !important;
+}
+.Indicator_box{
+    width: 25%;
+    object-fit: cover;
+    height: 300px;
+}

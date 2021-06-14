@@ -1,0 +1,146 @@
+.Comment {
+    width        : 100%;
+    overflow-wrap: anywhere;
+}
+
+.title {
+    width      : 166px;
+    height     : 51px;
+    font-size  : 40px;
+    line-height: 51px;
+    margin     : 120px 0 0 0;
+
+}
+
+.text_body {
+    height: 150px;
+}
+
+.title_body,
+.text_body {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+}
+
+.text_box,
+.text_box2 {
+    width    : 80%;
+    display  : flex;
+    flex-wrap: nowrap;
+}
+
+.img_body {
+    margin: 20px 60px 0 0;
+}
+
+.post_title {
+    font-size: 28px;
+}
+
+.post,
+.post_title {
+    margin: 0 !important;
+}
+
+.text_box2 img{
+    width: 100px;
+    height: 100px;
+    /* image-rendering: pixelated; */
+}
+
+.post,
+.post_title,
+.title {
+    color      : #000000;
+    font-family: Gabriela;
+}
+
+.post_body,
+.text_box2,
+.text_box {
+    margin: 10px 0 0 0 !important;
+}
+
+.inp_body {
+    margin: 50px 0 0 0 !important;
+}
+
+.name_body input {
+    width  : 1040px;
+    border : 1px solid #000000;
+    height : 50px;
+    outline: none !important;
+}
+
+.CommentForm {
+    width: 100%;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .img_body img {
+        width : 70px;
+        margin: -10px 10px 0 0;
+    }
+
+    .post_body input {
+        width: 100%;
+    }
+
+    .post {
+        font-size: 10px;
+    }
+
+    .post_title {
+        font-size: 16px;
+    }
+
+    .img_body {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .text_box,
+    .img_body {
+        margin: 0;
+    }
+
+    .text_box,
+    .text_box2 {
+        width: 96%;
+    }
+    .name_body input {
+        width : 90%;
+        height: 30px;
+    }
+
+    .name_body input::placeholder {
+        font-size: 12px;
+        color    : rgb(196, 196, 196);
+    }
+}
+
+@media (min-width:450px) and (max-width:799.9px) {
+    .name_body input {
+        width: 100%;
+    }
+
+    .img_body {
+        margin: 20px 20px 0 0;
+    }
+
+    .post_title {
+        font-size: 25px;
+    }
+
+    .post {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:800px) and (max-width:1599.9px) {
+    .name_body input {
+        width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+.Luks_block_body{
+    width: 90%;
+    display: grid;
+    grid-template-areas: "p t";
+    grid-column-gap: 70px;
+}
+
+.Luks_block2{ grid-area: t !important; }
+
+.Luks_block1{ grid-area: p !important; }
+
+.Luks_title{
+  text-align: center;
+  margin: 5rem 0 0 0;
+  color: #000;
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Luks_block_title{
+    flex-wrap: wrap;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Luks_block_title b, .Luks_block_title{ width: 100% !important; }
+
+.Luks_block_chiziq{  margin-top: -2rem;  }
+
+.Luks_block_text{  padding-top: 30px;  }
+.Luks{
+    display: flex;
+    justify-content: center !important;
+    margin-top: 6.8rem;
+}
+.Luks_block_img{
+    width: 610px;
+    height: 520px;
+}
+@media (min-width:0) and (max-width:949.9px){
+    .Luks_block_body{  grid-template-areas: "t" "p"; }
+    .Luks_block2{ grid-area: p !important; margin-top: 3rem; }
+    .Luks_block_img{
+        width: 100%;
+        height: 450px;
+        margin-top: 3rem;
+    }    
+    .Luks_block_title, .Luks_block_chiziq_body{ justify-content: center;  }
+    .Luks_block_title b, .Luks_block_text{ text-align: center !important; }
+    .Luks_block_chiziq{ width: 90%; }
+    .Luks_block_chiziq_body{
+        display: flex;
+        align-items: flex-end;
+    }
+    .Luks_block_text{ padding: 30px 30px 0 30px; }     
+}
+@media (min-width:949.9px)and (max-width:1229px){
+    .Luks_block_img{ width: 450px; }
+    .Luks_block_body{
+        width: 90%;
+        grid-column-gap: 40px;
+    }
+}

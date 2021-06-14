@@ -1,0 +1,138 @@
+.block_1 {
+    grid-template-columns: 1fr 2.2fr;
+    grid-template-areas  : " i t";
+}
+
+.block_1,
+.block_2 {
+    display   : grid;
+    margin-top: 5rem;
+}
+
+.block_2 {
+    grid-template-columns: 2.2fr 2fr;
+    grid-template-areas  : " t i ";
+}
+
+.img_bath,
+.img_bath2 {
+    grid-area: i;
+}
+
+.text_vanna2 {
+    margin-left: 9.5rem;
+}
+
+.text_vanna2,
+.img_bath2,
+.img_bath {
+    text-align: right;
+}
+
+.text_vanna2,
+.text_vanna {
+    grid-area: t;
+
+}
+
+.text_vanna {
+    width      : 70%;
+    margin-left: 5rem;
+}
+
+.img_bath2 {
+    width: 80%;
+}
+
+.text_vanna_img,
+.text_vanna_img2 {
+    margin-bottom: 3rem;
+    width: 294px;
+}
+
+.text_vanna_words {
+    width: 700px;
+}
+
+.text_vanna_words2,
+.text_vanna_words {
+    font-size: 15px;
+}
+
+.text_vanna_words2 {
+    text-align: left;
+}
+
+.text_vanna_title {
+    width: 120px;
+}
+
+.text_vanna_title2,
+.text_vanna_title {
+    font-size: 35px;
+}
+
+.text_vanna_title2,
+.text_vanna_title,
+.text_vanna_words2,
+.text_vanna_words {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text_vanna_title2{
+    font-size: 25px;
+    width: 10%;
+    /* text-align: center; */
+}
+
+.text_vanna_words2,
+.text_vanna2,
+.img_bath {
+    width: 100%;
+}
+
+@media(min-width:0) and (max-width:400px){
+    .img_bath img, .img_bath2 img{
+        width: 100% !important;
+    }
+}
+
+@media (min-width:0) and (max-width:1020.9px) {
+    .block_1,
+    .block_2 {
+        grid-template-columns: 1fr;
+        grid-template-areas  : " i " "t";
+    }
+
+    .img_bath,
+    .text_vanna,
+    .text_vanna2,
+    .img_bath2, .text_vanna_words2 {
+        text-align: center;
+    }
+
+    .text_vanna, .text_vanna2 {
+        margin-left: 0;
+    }
+
+    .text_vanna_title,
+    .img_bath2,
+    .text_vanna_title,
+    
+    .text_vanna_words {
+        width: 100%;
+    }
+
+    .text_vanna_words, .text_vanna_words2 {
+        padding: 0 5%;
+    }
+}
+
+@media (min-width:1021px) and (max-width:1220.9px) {
+    .text_vanna_words, .text_vanna_words2{
+        width: 100%;
+    }
+    .text_vanna2 {
+        margin-left: 1rem;
+    }
+}
