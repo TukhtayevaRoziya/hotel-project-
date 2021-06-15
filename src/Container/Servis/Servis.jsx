@@ -4,7 +4,8 @@ import Center from "./ServerBadCenter.png";
 import Tue from "./ServerTue.png";
 import BathImg from "./bath.png";
 import BadRoomImg from "./badRoomImg.png";
-import ServerBody from "./ServerBody/ServerBody";
+import ServerBodyContainer from "./ServerBody/ServerBodyContainer";
+
 import CommentContainer from "./Comment/CommentContainer";
 const Servis = () => {
     return (
@@ -32,7 +33,7 @@ const Servis = () => {
                 </div>
                 <img src={BadRoomImg} alt="" />
             </div>
-            <ServerBody />
+            <ServerBodyContainer />
             <CommentContainer />
         </div>
     )

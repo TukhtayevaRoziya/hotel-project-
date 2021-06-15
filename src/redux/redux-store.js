@@ -7,6 +7,7 @@ import LuksReduser from "./LuksRedux";
 import { reducer as formReducer} from "redux-form"
 import HeaderLuksIndigoReduser from "./HeaderLuksIndigoReduser";
 import { CommentRedux } from "./CommentRedux";
+import { ServerBodyRedux } from "./ServerBodyRedux";
 const { createStore, combineReducers } = require("redux");
 // const { default: HomeReduser } = require("./HomeReduser");
 let reducers = combineReducers({
@@ -18,7 +19,9 @@ let reducers = combineReducers({
     luks: LuksReduser,
     headerluksindigo: HeaderLuksIndigoReduser,
     comment: CommentRedux,
+    server:ServerBodyRedux,
     form:formReducer,
+   
 
 });
 let store = createStore(reducers);

@@ -4,6 +4,7 @@
      background-size  : 100% 1140px;
      height           : 1140px;
      flex-wrap        : wrap;
+     overflow: hidden;
  }
 
  .jbo_body {
@@ -101,3 +102,23 @@
 
      }
  }
+
+ @media(min-width:0px) and (max-width:300.9px) {
+    .home{
+       background-size  : 100% 500px;
+       height: 500px;
+    }
+}
+@media(min-width:300.9px) and (max-width:700.9px) {
+    .home{
+       background-size  : 100% 600px;
+       height: 600px;
+    }
+}
+
+@media(min-width:700.9px) and (max-width:1000.9px) {
+    .home{
+       background-size  : 100% 700px;
+       height: 700px;
+    }
+}

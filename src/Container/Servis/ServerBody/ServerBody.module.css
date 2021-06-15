@@ -47,7 +47,7 @@
 .text_vanna_img,
 .text_vanna_img2 {
     margin-bottom: 3rem;
-    width: 294px;
+    width        : 294px;
 }
 
 .text_vanna_words {
@@ -79,10 +79,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.text_vanna_title2{
+.text_vanna_title2 {
     font-size: 25px;
-    width: 10%;
-    /* text-align: center; */
+    width    : 100%;
 }
 
 .text_vanna_words2,
@@ -91,47 +90,102 @@
     width: 100%;
 }
 
-@media(min-width:0) and (max-width:400px){
-    .img_bath img, .img_bath2 img{
+@media(min-width:0) and (max-width:400px) {
+
+    .img_bath img,
+    .img_bath2 img {
         width: 100% !important;
+    }
+
+    .text_vanna {
+        width: 100%;
+    }
+
+}
+
+@media(min-width:0) and (max-width:300px) {
+
+    .text_vanna_words,
+    .text_vanna_words2 {
+        margin   : 0 auto !important;
+        font-size: 10px;
+    }
+
+    .text_vanna_title2,
+    .text_vanna_title {
+        font-size: 20px !important;
+    }
+
+    .text_vanna,
+    .text_vanna2 {
+        width: 75%;
     }
 }
 
 @media (min-width:0) and (max-width:1020.9px) {
+
+    .img_bath img,
+    .img_bath2 img {
+        margin: 3rem 0 0 0;
+    }
+
     .block_1,
     .block_2 {
+        display              : inline;
         grid-template-columns: 1fr;
-        grid-template-areas  : " i " "t";
+        grid-template-areas  : " i ""t";
+    }
+
+    .text_vanna_title2,
+    .text_vanna_title {
+        font-size: 30px;
     }
 
     .img_bath,
     .text_vanna,
     .text_vanna2,
-    .img_bath2, .text_vanna_words2 {
+    .img_bath2,
+    .text_vanna_words2 {
         text-align: center;
     }
 
-    .text_vanna, .text_vanna2 {
+    .text_vanna,
+    .text_vanna2 {
         margin-left: 0;
     }
 
+    .text_vanna,
+    .text_vanna2 {
+        width : 75%;
+        margin: 1rem 0 0 0;
+
+    }
+
+    .text_vanna,
+    .text_vanna2,
     .text_vanna_title,
     .img_bath2,
-    .text_vanna_title,
-    
     .text_vanna_words {
         width: 100%;
     }
 
-    .text_vanna_words, .text_vanna_words2 {
+    .text_vanna_title {
+        text-align: center;
+    }
+
+    .text_vanna_words,
+    .text_vanna_words2 {
         padding: 0 5%;
     }
 }
 
 @media (min-width:1021px) and (max-width:1220.9px) {
-    .text_vanna_words, .text_vanna_words2{
+
+    .text_vanna_words,
+    .text_vanna_words2 {
         width: 100%;
     }
+
     .text_vanna2 {
         margin-left: 1rem;
     }

@@ -11,3 +11,14 @@
     object-fit: cover;
     height: 300px;
 }
+
+@media(min-width:0) and (max-width:350px){
+    .Indicator_box{
+        height: 100px;
+    }
+}
+@media(min-width:350px) and (max-width:750px){
+    .Indicator_box{
+        height: 200px;
+    }
+}
