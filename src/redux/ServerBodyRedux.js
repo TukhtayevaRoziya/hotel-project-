@@ -2,7 +2,6 @@ import moduleName from "../Container/Servis/ServerBody/ServerBody.module.css";
 import BathRoom from "../Container/Servis/ServerBody/BathRoom.png"
 import Baseyni from "../Container/Servis/ServerBody/Baseyni.png";
 import Restaurant from "../Container/Servis/ServerBody/Restaurant.png";
-import Chiziq from "../Container/Servis/ServerBody/chiziq.png";
 import DinningRoom from "../Container/Servis/ServerBody/DinningRoom.png";
 let SERVERBODY = "SERVERBODY"
 let ServerBody = [
