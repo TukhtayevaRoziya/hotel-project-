@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://roziya2008.github.io/React_Project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "bootstrap": "^4.6.0",
     "formik": "^2.2.9",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-carousel-indicator": "^1.0.6",
     "react-dom": "^17.0.2",
@@ -24,6 +26,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
