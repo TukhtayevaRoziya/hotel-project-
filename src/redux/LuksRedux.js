@@ -3,9 +3,10 @@ import luks1 from "../Container/Home/Luks/LuksPhoto/Luks1.png";
 import luks2 from "../Container/Home/Luks/LuksPhoto/Luks2.png";
 import luks3 from "../Container/Home/Luks/LuksPhoto/Luks3.png";
 import luks4 from "../Container/Home/Luks/LuksPhoto/Luks4.png";
+import chiziq from "../Container/Home/Luks/LuksPhoto/chiziq.png";
 
 let LUKSREDUSER = "LUKS"
-let imgChiziq = <div className={a.Luks_block_chiziq_body}><img className={a.Luks_block_chiziq} src="chiziq.png" alt="" /></div>
+let imgChiziq = <div className={a.Luks_block_chiziq_body}><img className={a.Luks_block_chiziq} src={chiziq} alt="" /></div>
 
 let luks = {
     luks_array1 : {
