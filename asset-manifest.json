@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hotel-project-/static/css/main.881d9e88.chunk.css",
-    "main.js": "/hotel-project-/static/js/main.55e51378.chunk.js",
-    "main.js.map": "/hotel-project-/static/js/main.55e51378.chunk.js.map",
+    "main.js": "/hotel-project-/static/js/main.cbebb369.chunk.js",
+    "main.js.map": "/hotel-project-/static/js/main.cbebb369.chunk.js.map",
     "runtime-main.js": "/hotel-project-/static/js/runtime-main.4dd61c25.js",
     "runtime-main.js.map": "/hotel-project-/static/js/runtime-main.4dd61c25.js.map",
     "static/css/2.f9789381.chunk.css": "/hotel-project-/static/css/2.f9789381.chunk.css",
@@ -19,6 +19,13 @@
     "static/media/Servis.module.css": "/hotel-project-/static/media/ServerBad.8f298a9c.png",
     "static/media/DinningRoom.535e5164.png": "/hotel-project-/static/media/DinningRoom.535e5164.png",
     "static/media/Ellipse.ba40e5c4.png": "/hotel-project-/static/media/Ellipse.ba40e5c4.png",
+    "static/media/GalareyaBad.9c2976c3.png": "/hotel-project-/static/media/GalareyaBad.9c2976c3.png",
+    "static/media/GalareyaBad1.6d3b3421.png": "/hotel-project-/static/media/GalareyaBad1.6d3b3421.png",
+    "static/media/GalareyaBath.0ca19629.png": "/hotel-project-/static/media/GalareyaBath.0ca19629.png",
+    "static/media/GalareyaCook.68886421.png": "/hotel-project-/static/media/GalareyaCook.68886421.png",
+    "static/media/GalareyaDengiz.b4e0d821.png": "/hotel-project-/static/media/GalareyaDengiz.b4e0d821.png",
+    "static/media/GalareyaRestaurant.4287f087.png": "/hotel-project-/static/media/GalareyaRestaurant.4287f087.png",
+    "static/media/GalareyaSwimm.0f2ccbf7.png": "/hotel-project-/static/media/GalareyaSwimm.0f2ccbf7.png",
     "static/media/Luks1.e81d26c4.png": "/hotel-project-/static/media/Luks1.e81d26c4.png",
     "static/media/Luks2.06345f73.png": "/hotel-project-/static/media/Luks2.06345f73.png",
     "static/media/Luks3.560f66f5.png": "/hotel-project-/static/media/Luks3.560f66f5.png",
@@ -58,6 +65,6 @@
     "static/css/2.f9789381.chunk.css",
     "static/js/2.ba8d7b22.chunk.js",
     "static/css/main.881d9e88.chunk.css",
-    "static/js/main.55e51378.chunk.js"
+    "static/js/main.cbebb369.chunk.js"
   ]
 }
