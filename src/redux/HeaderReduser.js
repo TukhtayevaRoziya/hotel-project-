@@ -1,6 +1,6 @@
 let HEADERLINK="HEADERLINK";
 let headerlink=[
-    { id: 1, to: "/", name: "Главния" },
+    { id: 1, to: "/hotel-project-", name: "Главния" },
     { id: 2, to: "/cervis", name: "Сервисы" },
     { id: 3, to: "/galareya", name: "Галарея" },
     // { id: 3, to: "/karta", name: "Карта" },
